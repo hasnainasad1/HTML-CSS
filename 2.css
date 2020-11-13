@@ -1,0 +1,402 @@
+*
+{
+    margin:0px;
+    padding: 0px;
+    background-color: #f6f9fc;
+}
+.mbody
+{
+    width: 100%;
+    height: auto;
+    font-family: sans-serif;
+}
+
+.navbar{
+    width: 1200px;
+    height: 70px;
+    border-bottom: solid 0.5px #cec1c1;
+}
+@media screen and(max-width: 800px){
+    .navbar{
+        background:red;
+    }
+
+}
+.leftmenu{
+    font-size: 10px;
+    width: 25%;
+    height: 24px;
+    color: #29b5c1;
+}
+.rightmenu{
+    color: #15959a;
+    width: 45%;
+    height: 24px;
+    float: right;
+    font-size: 12px;
+}
+.rightmenu ul li{
+    display: inline;
+    padding: 10px;
+}
+.rightmenu button{
+    border-radius: 17px;
+    line-height: 25px;
+    border-color: #15959a;
+    padding: 5px;
+    color: #15959a;
+}
+.color{
+    border-bottom: solid 4px #15959a;
+}
+.bgimg{
+    width: 100%;
+    height:55%;
+    background-image: url('2.png');
+    background-size: cover;
+    clip-path: ellipse(65% 80% at 50% 18%);
+    position: center;
+}
+.bgimg h1{
+    padding-left: 90px;
+    padding-top: 40px;
+    color: white;
+}
+.secone{
+    margin: -7% 20%;
+    padding-bottom: 10px; 
+}
+.head{
+    background-color: white;
+    position: absolute;
+    height: auto;
+    width: 60%;
+    padding: 2%;
+    float: left;
+}
+.head h3{
+    color: #15959a;
+    padding:6PX 0PX 36PX 1Px;
+    font-size: 30px;
+}
+
+.bar{
+    margin-top: 2%;
+    height: 5%;
+}
+.bar p{
+    display: inline;
+    font-size: 15px;
+    font-family:sans-serif;
+}
+.barleft{
+    float:left;
+    width: 20%;
+    text-align: center;
+    border-top: 1px solid #dadada;
+    border-right: 1px solid #dadada;
+    border-left: 1px solid #dadada;
+    margin-top: -5px;
+    padding: 1%;
+}
+.barleft p{
+    color:#15959a;
+    font-weight: bold;
+}
+.barright{
+    float:left;
+    width: 75%;
+    border-bottom: 1px solid #dadada;
+    padding-bottom: 2%;
+}
+.barright p{
+    margin-right: 8%;
+    text-align: center;
+    padding-left: 2%;
+    display: inline;
+    color:#15959a;
+}
+.of{
+    float: right;
+
+}
+.form{
+    width: 100%;
+    height: auto;
+    margin-top: 2%;
+    float: left;
+    color: #6b7c93;
+}
+#cha{
+    color: black;
+}
+.checkbox{
+    width: 100%;
+    margin-bottom: 3%;
+}
+.checkbox p{
+    display: inline;
+    padding-left: 3%;
+    font-family: sans-serif;
+}
+.left{
+  float:left;
+  width: 30%;  
+  padding-bottom: 2%;
+}
+.right{
+  float:right;
+  width: 30%;  
+  margin-right:30% ;
+  padding-bottom: 2%;
+}
+.Inputs{
+    width: 100%;
+    float: left;
+    margin-top: 1%;
+}
+.Inputs p{
+    font-family: sans-serif;
+    padding-bottom: 1%;
+     color: black;
+}
+.Inputs input{
+    width: 100%;
+    background-color: #fff;
+    padding:2%;
+    text-indent: 2%;
+    border:solid 2px #c4cdd5;
+}
+.Input2{
+    width: 50%;
+    float: left;
+    margin-top: 1%;
+}
+.Input2 p{
+    font-family: sans-serif;
+    padding-bottom: 1%;
+}
+.Input2 input{
+    width: 99%;
+    background-color:  #fff;
+    padding:3%;
+    text-indent: 2%;
+    margin-right: 1%;
+}
+.Input3{
+    width: 50%;
+    float: right;
+    margin-top: 1%;
+}
+.Input3 p{
+    font-family: sans-serif;
+    padding-bottom: 1%;
+}
+.Input3 input{
+    width: 99%;
+    background-color:  #fff;
+    padding:3%;
+    text-indent: 2%;
+    margin-left: 1%;
+}
+#p1{
+    float: left;
+    margin-top: 2%;
+    font-family: sans-serif;
+    font-size: 16px;
+    width: 100%;
+    color: black;
+}
+#p2{
+    float: left;
+    margin-top: 1%;
+    font-family: sans-serif;
+    font-size: 13px;
+    width: 100%;
+    color: black;
+}
+.check{
+    width: 100%;
+    float: left;
+    margin-top: 1%;
+    color: black;
+}
+.check p{
+    display: inline;
+    padding-left: 1%;
+    font-family: sans-serif;
+    font-size: 15px;
+    color: black;  
+}
+.check input{
+    margin-top: 1%;
+    color: black;
+}
+.checkbox1{
+    width: 100%;
+    float: left;
+    margin-top: 1%;
+    color: black;
+
+}
+.checkbox1 p{
+    display: inline;
+    padding-left: 1%;
+    font-family: sans-serif;
+    font-size: 15px;
+    color: black;
+
+   
+}
+.checkbox1 input{
+    margin-top: 1%;
+}
+.checkbox2{
+    width: 100%;
+    float: left;
+    margin-top: 1%;
+    color: black;
+
+}
+.checkbox2 p{
+    display: inline;
+    padding-left: 1%;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.checkbox2 input{
+    margin-top: 1%;
+}
+#p3{
+    float: left;
+    margin-top: 2%;
+    font-family: sans-serif;
+    font-size: 13px;
+    color: black;
+    width: 100%;
+}
+#submit1{
+    float: left;
+    margin-top: 2%;
+    width: 50%;
+    padding:2%;
+    font-size: 14px;
+    background-color: #05849fa1;
+    color: white;
+     border-radius: 90px;
+}
+.button1{
+    margin-top: 98%;
+    background-color: white;
+    width: 100%;
+    padding: 3%;
+    float: left;
+    height: auto;  
+}
+.button1 h3{
+    color:#15959a;
+    font-weight: bold;
+    padding: 2px 2px 7px 7px;
+    font-size: 38px;
+}
+.state{
+    width: 18%;
+    font-size: 13px;
+  height: auto;
+  float: left;
+  padding:1%;
+}
+.state ul{
+    width: 18%;
+    list-style-type: none;
+}
+.state ul li{
+    display: block;
+    padding:4%;
+    padding-bottom: 25%;
+    color: #718298;
+}
+.last{
+    clear: both;
+    float: left;
+    width: 100%;
+    height: auto;
+    margin-top: 2%;
+    border-top:solid 2px #e0e2e4;
+}
+.lastbody{
+    margin: 2% 20%;
+    height: auto;
+    width: 60%;
+    border-color: red;
+    float: left;
+}
+.body1{
+    width: 30%;
+    float: left;
+}
+.bodytext{
+    width: 95% ;
+    float: left; 
+    padding-bottom: 13px;
+}
+.bodytext h2{
+    color:#25abba;
+}
+.bodytext p{
+    display: inline;
+    font-size: 13px;
+    color:#b3bcc6;
+
+}
+.body2{ 
+    text-align: center;
+    width: 20%;
+    float: left;
+    margin-left: 1%;
+}
+.body2 h4{
+    padding-left: 7px;
+    color:#676977;
+
+}
+#lp{
+    font-size: 16px;
+    margin-top: 18%;
+    display: block;
+    text-align: justify;
+    font-family:sans-serif;
+    color: #8b99ab;
+}
+.body2 ul{
+    margin-top: 5%;
+}
+.body2 ul li{
+    display:block;
+    width: 100%;
+    padding: 2%;
+    font-size: 15px;
+    text-align: justify;
+    margin-left: 25%;
+    color: #6b7c93;
+}
+.clam{
+    float: left;
+    width: 100%;
+    margin-top: 2%;
+    border-top:solid 2px #e0e2e4;
+}
+.clam p{
+    float:right;
+    padding: 2%;
+    margin-top: -2%;
+    padding-right: 0%;
+    word-spacing: 8px;
+    color: #909fa7;
+}
+.clam h5{
+    padding: 2%;
+    padding-left: 0%;
+    color: #909fa7;
+
+}
